@@ -1,0 +1,118 @@
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.half-width img{
+    max-width: 100%;
+    height: auto;
+}
+.link-button button{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ec5197, #ed4b6f);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header-bg{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.padding-top{
+    padding-top: 10%;
+}
+section{
+    padding-bottom: 150px;
+    height: 500px;
+}
+
+.biography-bg{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+  .responsive{
+    width: 24%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  h2{
+    font-weight: 200;
+    font-size: 30px;
+  }
+  p{
+    color: #898989;
+    font-weight: 100; 
+    font-size: 16px;
+  }
+  .latest-work-bg{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .center-all{
+      text-align: center;
+  }
+  .footer-bg{
+      background-image: url(footer-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  h1.client-h1{
+      font-weight: 700;
+      font-size: 35px;
+      padding-bottom: 2%;
+  }
+
+  div.client-name{
+    padding-bottom: 2%;
+  }
+
+  div.client-review{
+      padding-bottom: 2%;
+  }
+  div.message{
+      display: inline-block;
+      background-image:linear-gradient(45deg, #ec5197, #ed4b6f);
+      padding: 10px 60px;
+      border-radius: 8px;
+    }
+
+  div.message p{
+      color: white;
+  }
+  div.message a{
+      color: white;
+      text-decoration: none;
+  }
+  footer p{
+      text-align: center;
+  }
